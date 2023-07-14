@@ -11,9 +11,9 @@ const App = () =>{
         <Runline/>
         <Header /> 
         <AppRoutes />
-        <div className='container'>
+        
             <Contact />
-        </div>
+        
         <Footer/>
     </div>
 }

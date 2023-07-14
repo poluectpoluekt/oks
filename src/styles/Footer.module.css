@@ -165,3 +165,46 @@
         justify-content: center;
     }
 }
+
+
+@media(max-width: 391px){
+
+    .conteiner_top{
+        padding: 5px 5px;
+        margin: 0;
+    }
+
+    .logo{
+        display: none;
+    }
+    .info{
+        text-align: center;
+    }
+
+    .conteiner_content{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .info{
+        font-size: 12px;
+    }
+
+    .phone{
+        font-size: 20px;
+    }
+
+    .conteiner_socials > a >img{
+
+    }
+
+    .link h2{
+        font-size: 12px;
+    }
+
+    .conteiner_contacts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

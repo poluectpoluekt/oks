@@ -84,3 +84,19 @@
 
 
 }
+
+@media(max-width: 391px){
+
+    .wrap_list_item{
+        padding: 0;
+    }
+
+    .wrap_list_item_content div h2{
+        font-size: 15px;
+        padding: 0;
+        //width: 70%;
+    }
+
+
+
+}

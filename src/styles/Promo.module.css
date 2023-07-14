@@ -71,5 +71,19 @@
 
 }
 
+@media(max-width: 391px){
+
+    .carousel{
+        //max-height: 375px;
+        min-height: 60vh;
+    }
+
+    .carousel_inner div{
+        max-height: 375px;
+    }
+
+
+}
+
 
 

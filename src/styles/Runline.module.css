@@ -75,3 +75,33 @@
 
   
 }
+
+@media (max-width: 391px){
+  
+  .promo p{
+    font-size: 15px;
+  }
+
+  .promo img{
+    height: 25px;
+    width: 25px;
+  }
+
+  .promo p:nth-child(3){
+    display: none;
+  }
+
+  .promo img:nth-child(4){
+    display: none;
+  }
+
+  .promo p:nth-child(5){
+    display: none;
+  }
+
+  .promo img:nth-child(6){
+    display: none;
+  }
+
+  
+}

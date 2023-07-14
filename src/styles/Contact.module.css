@@ -49,7 +49,7 @@
 }
 
 .conteiner_flex a{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     text-decoration: none;
 }
 
@@ -72,7 +72,9 @@
 
 @media(max-width: 376px){
 
+
     .main{
+        //display: none;
         width: 80px;
     }
 
@@ -85,5 +87,23 @@
         height: 30px;
     }
 
+
+}
+
+@media(max-width: 391px){
+
+    .main{
+        //display: none;
+        width: 85px;
+    }
+
+    .conteiner_flex a h2{
+        font-size: 13px;
+    }
+
+    .conteiner_flex a img{
+        width: 35px;
+        height: 35px;
+    }
 
 }

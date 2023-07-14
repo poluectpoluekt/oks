@@ -97,7 +97,7 @@
   }
 
 
-  @media(max-width: 380px){
+  @media(max-width: 376px){
 
     .logo img{
       max-height: 48px;
@@ -133,4 +133,43 @@
     gap: 5px
   }
   
+  }
+
+
+  @media(max-width: 391px){
+
+    .logo img{
+      max-height: 48px;
+      width: 45px;
+      height: 45px;
+    }
+
+   
+    .socials img{
+      max-height: 48px;
+      width: 26px;
+      height: 26px;
+    }
+
+    .left {
+      margin-right: 5px;
+  }
+
+    .left h2{
+        font-size: 12px;
+    }
+
+    .right h2{
+      font-size: 12px;
+  }
+
+  .left ul{
+    padding: 3px;
+    gap: 5px;
+  }
+
+  .right div{
+    gap: 5px
+  }
+
   }
