@@ -50,7 +50,7 @@ setPicture(components[position]);
             <h2 className={styles.main_p}> {picture.price} </h2> {/* {props.value.price} */}
             <a href='https://b629680.yclients.com/company/595090/select-services?o=m-1' target="_blank" className={styles.btn} rel="noreferrer">Записаться</a>
 
-                    <span href={prevPB} className={styles.slide_btn_l} type="button" onClick={prevP} rel="noreferrer"> 
+                    <span className={styles.slide_btn_l} type="button" onClick={prevP} rel="noreferrer"> 
                       <img src={right} onClick={prevP} type="button" alt=''></img>
                     </span>
                     <span className={styles.slide_btn_r} type="button" onClick={nextP} rel="noreferrer">
