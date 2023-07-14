@@ -21,7 +21,7 @@ const Contact = () => {
                   </a>
 
                   <a href='https://b629680.yclients.com/company/595090/select-services?o=m-1' target="_blank" rel="noreferrer"> 
-                    <img src={icon} className={styles.icon}></img> 
+                    <img src={icon} className={styles.icon} alt='#'></img> 
                     <h2>Online-запись</h2> 
                   </a>
 
