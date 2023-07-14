@@ -7,6 +7,8 @@ import right from '../../images/right.png'
 
 const Add = (props) => {
 
+  const prevPB = '';
+  const nextPB = '';
 
   const components = [  { name:  'Лазерная эпиляция на диодном лазере', price: 'от 490 ₽', st: styles.carousel_item},
                         { name: 'Лазерная эпиляция всё тело', price: '2 900 ₽', st: styles.carousel_item_sec}, 
@@ -48,10 +50,10 @@ setPicture(components[position]);
             <h2 className={styles.main_p}> {picture.price} </h2> {/* {props.value.price} */}
             <a href='https://b629680.yclients.com/company/595090/select-services?o=m-1' target="_blank" className={styles.btn} rel="noreferrer">Записаться</a>
 
-                    <a href='' className={styles.slide_btn_l} type="button" onClick={prevP} rel="noreferrer"> 
+                    <a href={prevPB} className={styles.slide_btn_l} type="button" onClick={prevP} rel="noreferrer"> 
                       <img src={right} onClick={prevP} type="button" alt=''></img>
                     </a>
-                    <a href='' className={styles.slide_btn_r} type="button" onClick={nextP} rel="noreferrer">
+                    <a href={nextPB} className={styles.slide_btn_r} type="button" onClick={nextP} rel="noreferrer">
                       <img src={left} onClick={nextP} type="button" alt=''></img>  
                     </a>
         </div>
