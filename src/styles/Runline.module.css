@@ -1,0 +1,77 @@
+.main{
+    background-color: #7cbfc2;
+    color: white;
+    width: 100%;
+    
+}
+
+
+
+.promo{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    animation: move 10s linear infinite;
+    white-space: nowrap;
+    padding-right: -10px;
+    padding: 5px 0;
+    overflow: hidden;    
+}
+
+
+.promo p{
+  font-size: 15px;
+}
+
+.promo p, img{
+    overflow: hidden;
+    margin-left: 5px;
+
+}
+
+.promo img{
+    height: 30px;
+    width: 30px;
+} 
+
+
+@keyframes move{
+    
+      0%{
+        transform: translateX(100%);
+      }
+
+      100%{
+        transform: translateX(-100%);
+      }
+}
+
+@media (max-width: 376px){
+  
+  .promo p{
+    font-size: 10px;
+  }
+
+  .promo img{
+    height: 20px;
+    width: 20px;
+  }
+
+  .promo p:nth-child(3){
+    display: none;
+  }
+
+  .promo img:nth-child(4){
+    display: none;
+  }
+
+  .promo p:nth-child(5){
+    display: none;
+  }
+
+  .promo img:nth-child(6){
+    display: none;
+  }
+
+  
+}

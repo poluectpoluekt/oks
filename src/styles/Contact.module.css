@@ -1,0 +1,89 @@
+.main{
+    width: 150px;
+    padding-top: 27px;
+    padding-bottom: 10px;
+
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 99;
+    right: 0px;
+    bottom: 35px;
+    min-height: 106px;
+    background-color: rgba(205,200,201,.4);
+    border-top-left-radius: 27px;
+    border-bottom-left-radius: 27px;
+    opacity: 1; 
+}
+
+.conteiner_flex{
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.conteiner_flex a{
+    margin-bottom: 30px;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: opacity .3s;
+    -o-transition: opacity .3s;
+    transition: opacity .3s;
+    cursor: pointer;
+
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+.conteiner_flex a{
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.conteiner_flex a h2{
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.9;
+    font-weight: 400;
+}
+
+.conteiner_flex a img{
+    margin-bottom: 7px;
+}
+
+
+.icon{
+    width: 40px;
+    height: 40px;
+}
+
+@media(max-width: 376px){
+
+    .main{
+        width: 80px;
+    }
+
+    .conteiner_flex a h2{
+        font-size: 10px;
+    }
+
+    .conteiner_flex a img{
+        width: 30px;
+        height: 30px;
+    }
+
+
+}
