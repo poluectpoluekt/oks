@@ -7,9 +7,6 @@ import right from '../../images/right.png'
 
 const Add = (props) => {
 
-  const prevPB = '';
-  const nextPB = '';
-
   const components = [  { name:  'Лазерная эпиляция на диодном лазере', price: 'от 490 ₽', st: styles.carousel_item},
                         { name: 'Лазерная эпиляция всё тело', price: '2 900 ₽', st: styles.carousel_item_sec}, 
                         { name: 'Депиляция сахаром или воском от ТОП-мастера', price: 'от 300 ₽', st: styles.carousel_item_thi}, 
