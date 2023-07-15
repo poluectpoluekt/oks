@@ -310,3 +310,36 @@
 
 
 }
+
+
+@media(max-width: 430px){
+    .price{
+           
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .title {
+        padding: 0 50px 30px 50px;
+        
+    }
+
+    .title h2{
+        font-size: 16px;
+    }
+
+    .conteiner_list{
+        padding: 0 5px;
+        margin: auto;
+    }
+
+    .conteiner_list_flex{
+        padding: 20px 40px;
+    }
+
+    .conteiner_list_open_show{
+        padding: 10px 15px;
+    }
+
+
+}

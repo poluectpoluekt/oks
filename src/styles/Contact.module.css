@@ -107,3 +107,24 @@
     }
 
 }
+
+@media(max-width: 430px){
+
+    .main{
+        //display: none;
+        width: 85px;
+        min-height: 96px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .conteiner_flex a h2{
+        font-size: 13px;
+    }
+
+    .conteiner_flex a img{
+        width: 35px;
+        height: 35px;
+    }
+
+}

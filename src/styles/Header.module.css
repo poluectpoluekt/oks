@@ -97,7 +97,7 @@
   }
 
 
-  @media(max-width: 376px){
+  /* @media(max-width: 376px){
 
     .logo img{
       max-height: 48px;
@@ -133,10 +133,10 @@
     gap: 5px
   }
   
-  }
+  } */
 
 
-  @media(max-width: 391px){
+  /* @media(max-width: 391px){
 
     .logo img{
       max-height: 48px;
@@ -171,5 +171,45 @@
   .right div{
     gap: 5px
   }
+
+  } */
+
+  @media(max-width: 430px){
+
+    .logo img{
+      max-height: 48px;
+      width: 46px;
+      height: 46px;
+    }
+
+   
+    .socials img{
+      max-height: 48px;
+      width: 27px;
+      height: 27px;
+    }
+
+    .left {
+      margin-right: 5px;
+  }
+
+    .left h2{
+        font-size: 12px;
+    }
+
+    .right h2{
+      font-size: 12px;
+  }
+
+  .left ul{
+    padding: 3px;
+    gap: 5px;
+  }
+
+  .right div{
+    gap: 5px
+  }
+
+
 
   }
