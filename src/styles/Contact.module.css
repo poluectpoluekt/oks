@@ -9,7 +9,7 @@
     justify-content: center;
     position: fixed;
     z-index: 99;
-    right: 0px;
+    right: 0vw;
     bottom: 35px;
     min-height: 106px;
     background-color: rgba(205,200,201,.4);
